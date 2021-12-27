@@ -58,4 +58,4 @@ classDiagram
           Nasabah ||--|| Perusahaan : is
           Nasabah ||--|| Individu : is
           Nasabah ||--|{ Rekening : have
-          ```
+```
