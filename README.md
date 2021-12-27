@@ -9,7 +9,9 @@ Rendy : membuat FXML Sistem Koperasi Simpan Pinjam <br>
 Abia : mengoneksi ke database <br>
 Putri : membuat class <br>
 
-Class Diagram : <br>
+Class Diagram :
+
+
 classDiagram
     Nasabah <-- Perusahaan
     Nasabah <-- Individu
@@ -23,9 +25,7 @@ classDiagram
       +print() : void
       <<abstract>>
     }
-    
-    
-
+ 
     class Rekening{
       -int noRekening
       -double saldo
@@ -50,7 +50,9 @@ classDiagram
     }
             
   
-  ER Diagram : <br>
+  ER Diagram :
+    
+    
   erDiagram
           Nasabah ||--|| Perusahaan : is
           Nasabah ||--|| Individu : is
