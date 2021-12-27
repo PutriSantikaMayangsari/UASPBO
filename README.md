@@ -12,7 +12,7 @@ Putri : membuat class <br>
 
 Class Diagram :
 
-
+`Mermaid diagrams`
 classDiagram
     Nasabah <-- Perusahaan
     Nasabah <-- Individu
