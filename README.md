@@ -12,7 +12,7 @@ Putri : membuat class <br>
 
 Class Diagram :
 
-`Mermaid diagrams`
+```mermaid 
 classDiagram
     Nasabah <-- Perusahaan
     Nasabah <-- Individu
@@ -49,13 +49,13 @@ classDiagram
         +Individu(rekeningid,nama,alamat,nik,npwp,rekening)
         +print()
     }
-            
+ ```
   
   ER Diagram :
     
-    
+  ```mermaid  
   erDiagram
           Nasabah ||--|| Perusahaan : is
           Nasabah ||--|| Individu : is
           Nasabah ||--|{ Rekening : have
-          
+          ```
